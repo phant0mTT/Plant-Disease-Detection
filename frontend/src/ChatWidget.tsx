@@ -41,16 +41,13 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({
             <Bot size={32} />
             <span className="absolute -top-2 -right-2 flex h-6 w-6">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-6 w-6 bg-green-500 text-xs item-center justify-center text-[9px]">
+                <span className="relative inline-flex rounded-full h-6 w-6 bg-green-500 text-xs items-center justify-center text-[9px]">
                     AI
                 </span> 
             </span>
         </button>
 
-        {isOpen && (
-            <div className="fixed bottom-20 right-6 w-80 bg-white rounded-lg shadow-lg flex flex-col z-50">
-                <div className="flex items-center justify-between p-4 border-b">)}
-
     </>
     );
 };
+export default ChatWidget;
